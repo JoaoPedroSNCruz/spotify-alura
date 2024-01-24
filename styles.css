@@ -11,7 +11,7 @@ body {
   width: 25rem;
 }
 
-.sidebar_navigation, .sidebar_library {
+.sidebar_navigation {
   background-color: #121212;
   border-radius: 8px;
   padding: 16px;
@@ -38,7 +38,7 @@ body {
   padding: 10px 0;
 }
 
-.sidebar nav ul li a, .sidebar_library {
+.sidebar nav ul li a {
   color: #c2c2c2;
   text-decoration: none;
   font-weight: 600;
@@ -50,47 +50,4 @@ body {
   padding: 12px;
   display: flex;
   justify-content: space-between;
-}
-
-.library_box div{
-  background-color: #313131;
-  border-radius: 10px;
-  padding: 0.5rem;
-}
-
-.playlist ,.podcasts {
-  display: flex;
-  flex-direction: column;
-  font-family: 'Trebuchet MS', sans-serif;
-  margin: 1rem 0;
-}
-
-.playlist h3,.podcasts h3 {
-  font-size: 16px;
-  padding: 5px 0;
-}
-
-.playlist span,.podcasts span {
-  font-size: 14px;
-  font-family: 'Trebuchet MS', sans-serif;
-  padding: 5px 0;
-}
-
-.playlist button,.podcasts button {
-  width: 10rem;
-  height: 2rem;
-  border-radius: 15px;
-  font-family: 'Trebuchet MS', sans-serif;
-  font-weight: 800;
-  font-size: 14px;
-  padding: 5px 0;
-}
-
-.links, .sidebar_library a {
-  font-size: 12px;
-  font-weight: 400;
-  color: #c2c2c2;
-  text-decoration: none;
-  font-family: "DM Sans", sans-serif;
-  padding: 8px;
 }
