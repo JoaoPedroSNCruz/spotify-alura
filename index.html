@@ -5,10 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alurafy</title>
   <link rel="shortcut icon" href="./src/assets/icons/favicon.png" type="image/x-icon"/>
-  <link
-      href="https://fonts.googleapis.com/css2?family=Alice&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Dancing+Script:wght@400;500;600;700&family=Oranienbaum&family=Roboto:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+  <link href="https://fonts.googleapis.com/css2?family=Alice&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Dancing+Script:wght@400;500;600;700&family=Oranienbaum&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./src/styles/reset.css">
   <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/92475370ac.js" crossorigin="anonymous"></script>
@@ -21,56 +18,48 @@
           <img src="./src/assets/icons/logo-spotify.png" alt="Logo Spotify">
         </a>
       </div>
-      <div>
-        <ul>
-          <li>
-            <a href="">
-              <span class="fa fa-home"></span>
-              <span>Início</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <span class="fa fa-search"></span>
-              <span>Buscar</span>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <ul>
+        <li>
+          <a href="">
+            <span class="fa fa-home"></span>
+            <span>Início</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <span class="fa fa-search"></span>
+            <span>Buscar</span>
+          </a>
+        </li>
+      </ul>
     </nav>
-    <nav class="sidebar_library">
-      <div class="library">
-        <div>
-          <span class="fa fa-book"></span>
-          <span>Sua biblioteca</span>
-        </div>
-        <a href="">
+    <div class="library">
+      <div class="library_content">
+          <button class="library_button">
+              <span class="fa fa-book"></span>
+              <span>Sua biblioteca</span>
+          </button>
           <span class="fa fa-plus"></span>
-        </a>
       </div>
-      <div class="library_box">
-        <div class="playlist">
-          <h3>Crie sua primeira playlist</h3>
-          <span>É fácil, nós vamos te ajudar</span>
-          <button>Criar playlist</button>
-        </div>
-        <div class="podcasts">
-          <h3>Vamos encontrar algum podcast para seguir</h3>
-          <span>Nós vamos deixar você atualizado sobre novos episódios</span>
-          <button>Procurar podcasts</button>
-        </div>
+      <section class="section-playlist">
+          <div class="section-playlist_content">
+              <span class="text title">Crie sua primeira playlist</span>
+              <span class="text subtitle">É fácil, vamos te ajudar.</span>
+              <button class="section-playlist_button">
+                  <span>Criar playlist</span>
+              </button>
+          </div>
+      </section>
+      <div class="cookies">
+          <a href="">Cookies</a>
       </div>
-      <div class="links">
-        <a href="">Legal</a>
-        <a href="">Privacy Center</a>
-        <a href="">Privacy Policy</a>
-        <a href="">Cookies</a>
-        <a href="">About Ads</a>
-        <a href="">Accessibility</a>
-        <a href="">Notice at Collection</a>
-        <a href="">Yout Privacy Choices</a>
+      <div class="languages">
+          <button class="languages_button">
+              <span class="fa fa-globe"></span>
+              <span>Português do Brasil</span>
+          </button>
       </div>
-    </nav>
+    </div>
   </div>
 </body>
 </html>
