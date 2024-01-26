@@ -6,9 +6,15 @@
   <title>Alurafy</title>
   <link rel="shortcut icon" href="./src/assets/icons/favicon.png" type="image/x-icon"/>
   <link href="https://fonts.googleapis.com/css2?family=Alice&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Dancing+Script:wght@400;500;600;700&family=Oranienbaum&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./src/styles/vars.css">
   <link rel="stylesheet" href="./src/styles/reset.css">
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://kit.fontawesome.com/92475370ac.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+  <link rel="stylesheet" href="./src/styles/main-content.css">
+  <!-- Links para trazer os ícones via CDN  passados pela Alura, tentei meu kit no font awesome mas o fa-book não era carregado -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
 </head>
 <body>
   <div class="sidebar">
@@ -61,5 +67,39 @@
       </div>
     </div>
   </div>
+  <main>
+    <div class="main-container">
+      <nav class="header_navigation">
+        <div class="navigation">
+          <button class="arrow-left">
+            <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+          </button>
+          <button class="arrow-right">
+            <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+          </button>
+          <div class="header_search">
+            <img src="./src/assets/icons/search.png">
+            <input id="search-input" type="text" maxlength="300" placeholder="O que você quer ouvir?" />
+          </div>
+          <div class="header_login">
+            <button class="subscribe">Inscreva-se</button>
+            <button class="login">Entrar</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </main>
+  <footer class="disclaimer-premium">
+    <div class="text">
+        <p class="disclaimer-premium_title">Testar o Premium de graça</p>
+        <p class="disclaimer-premium_subtitle">
+            Inscreva-se para curtir música ilimitada e podcasts só com alguns
+            anúncios. Não precisa de cartão de crédito.
+        </p>
+    </div>
+    <div class="button">
+        <button type="button">Inscreva-se grátis</button>
+    </div>
+</footer>
 </body>
 </html>
